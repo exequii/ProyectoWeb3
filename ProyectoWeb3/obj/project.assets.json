@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ezequ\\.nuget\\packages\\": {}
+    "C:\\Users\\es250396\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ezequ\\Documents\\GitHub\\programacionWeb3\\ProyectoWeb3\\ProyectoWeb3.csproj",
+      "projectUniqueName": "C:\\Ezequiel\\ProyectoWeb3\\ProyectoWeb3\\ProyectoWeb3.csproj",
       "projectName": "ProyectoWeb3",
-      "projectPath": "C:\\Users\\ezequ\\Documents\\GitHub\\programacionWeb3\\ProyectoWeb3\\ProyectoWeb3.csproj",
-      "packagesPath": "C:\\Users\\ezequ\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ezequ\\Documents\\GitHub\\programacionWeb3\\ProyectoWeb3\\obj\\",
+      "projectPath": "C:\\Ezequiel\\ProyectoWeb3\\ProyectoWeb3\\ProyectoWeb3.csproj",
+      "packagesPath": "C:\\Users\\es250396\\.nuget\\packages\\",
+      "outputPath": "C:\\Ezequiel\\ProyectoWeb3\\ProyectoWeb3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ezequ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\es250396\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,7 +28,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://nuget.sitefinity.com/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -68,13 +67,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.sitefinity.com/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    }
-  ]
+  }
 }

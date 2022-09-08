@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ezequ\\Documents\\GitHub\\programacionWeb3\\ProyectoWeb3\\ProyectoWeb3.csproj": {}
+    "C:\\Ezequiel\\ProyectoWeb3\\ProyectoWeb3\\ProyectoWeb3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ezequ\\Documents\\GitHub\\programacionWeb3\\ProyectoWeb3\\ProyectoWeb3.csproj": {
+    "C:\\Ezequiel\\ProyectoWeb3\\ProyectoWeb3\\ProyectoWeb3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ezequ\\Documents\\GitHub\\programacionWeb3\\ProyectoWeb3\\ProyectoWeb3.csproj",
+        "projectUniqueName": "C:\\Ezequiel\\ProyectoWeb3\\ProyectoWeb3\\ProyectoWeb3.csproj",
         "projectName": "ProyectoWeb3",
-        "projectPath": "C:\\Users\\ezequ\\Documents\\GitHub\\programacionWeb3\\ProyectoWeb3\\ProyectoWeb3.csproj",
-        "packagesPath": "C:\\Users\\ezequ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ezequ\\Documents\\GitHub\\programacionWeb3\\ProyectoWeb3\\obj\\",
+        "projectPath": "C:\\Ezequiel\\ProyectoWeb3\\ProyectoWeb3\\ProyectoWeb3.csproj",
+        "packagesPath": "C:\\Users\\es250396\\.nuget\\packages\\",
+        "outputPath": "C:\\Ezequiel\\ProyectoWeb3\\ProyectoWeb3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ezequ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\es250396\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://nuget.sitefinity.com/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
