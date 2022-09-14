@@ -6,4 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\assets\fondo-index.jpeg" />
+    <None Include="wwwroot\assets\Qatar2022.png" />
+  </ItemGroup>
+
 </Project>

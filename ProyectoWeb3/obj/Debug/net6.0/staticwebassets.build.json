@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rzF/dEY1xECkB5tQpiQdyj3S/fxi5Sz9sYE/89PBMUc=",
+  "Hash": "Fn/lit6aK/VYiU4ipPpHQbN+m7ikhC1VJ+UKOcvnwNw=",
   "Source": "ProyectoWeb3",
   "BasePath": "_content/ProyectoWeb3",
   "Mode": "Default",
@@ -49,6 +49,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Ezequiel\\ProyectoWeb3\\ProyectoWeb3\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ProyectoWeb3.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Ezequiel\\ProyectoWeb3\\ProyectoWeb3\\wwwroot\\assets\\fondo-index.jpeg",
+      "SourceId": "ProyectoWeb3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Ezequiel\\ProyectoWeb3\\ProyectoWeb3\\wwwroot\\",
+      "BasePath": "_content/ProyectoWeb3",
+      "RelativePath": "assets/fondo-index.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\fondo-index.jpeg"
+    },
+    {
+      "Identity": "C:\\Ezequiel\\ProyectoWeb3\\ProyectoWeb3\\wwwroot\\assets\\Qatar2022.png",
+      "SourceId": "ProyectoWeb3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Ezequiel\\ProyectoWeb3\\ProyectoWeb3\\wwwroot\\",
+      "BasePath": "_content/ProyectoWeb3",
+      "RelativePath": "assets/Qatar2022.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\Qatar2022.png"
     },
     {
       "Identity": "C:\\Ezequiel\\ProyectoWeb3\\ProyectoWeb3\\wwwroot\\css\\site.css",
