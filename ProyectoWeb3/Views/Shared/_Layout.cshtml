@@ -7,36 +7,37 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/ProyectoWeb3.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css" />
 </head>
 <body class="d-flex">
     <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 280px;">
         <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap" /></svg>
-            <span class="fs-4">Futbolizados</span>
+            <img src="~/images/Qatar2022.png" height="35" width="35" />
+            <h2 class="fw-bolder">Futbolizados</h2>
         </a>
         <hr>
-        <ul class="nav nav-pills flex-column mb-auto">
-            <li class="nav-item">
-                <a href="#" class="nav-link active" aria-current="page">
-                    <svg class="bi me-2" width="16" height="16"><use xlink:href="#home" /></svg>
+        <ul class="nav nav-pills flex-column mb-auto" id="nav-lateral">
+            <li>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="nav-link text-white" aria-current="page">
+                    <i class="fi fi-rr-home"></i>
                     Home
                 </a>
             </li>
             <li>
-                <a href="#" class="nav-link text-white">
-                    <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2" /></svg>
+                <a asp-area="" asp-controller="Home" asp-action="Mundial" class="nav-link text-white">
+                    <i class="fi fi-rr-trophy"></i>
                     Copa del Mundo
                 </a>
             </li>
             <li>
-                <a href="#" class="nav-link text-white">
-                    <svg class="bi me-2" width="16" height="16"><use xlink:href="#table" /></svg>
+                <a asp-area="" asp-controller="Prode" asp-action="Resultados" class="nav-link text-white">
+                    <i class="fi fi-rr-list-check"></i>
                     Prode
                 </a>
             </li>
             <li>
-                <a href="#" class="nav-link text-white">
-                    <svg class="bi me-2" width="16" height="16"><use xlink:href="#grid" /></svg>
+                <a asp-area="" asp-controller="Home" asp-action="Contacto" class="nav-link text-white">
+                    <i class="fi fi-rr-users"></i>
                     Contacto
                 </a>
             </li>
@@ -44,38 +45,19 @@
         <hr>
         <div class="dropdown">
             <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
-                <strong>Usuario</strong>
+                <i class="fi fi-rr-portrait m-1"></i>
+                <p class="m-1">Usuario</p>
             </a>
             <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
-                <li><a class="dropdown-item" href="#">Nuevo Prode</a></li>
-                <li><a class="dropdown-item" href="#">Perfil</a></li>
+                <li><a class="dropdown-item" asp-area="" asp-controller="Usuario" asp-action="PerfilUsuario">Perfil</a></li>
+                <li><a class="dropdown-item" asp-area="" asp-controller="Usuario" asp-action="Registrar">Registrarse</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Cerrar Sesion</a></li>
+                <li><a class="dropdown-item" asp-area="" asp-controller="Usuario" asp-action="Logout">Cerrar Sesion</a></li>
             </ul>
         </div>
     </div>
     
     <div class="w-100">
-@*            <nav class="navbar navbar-dark bg-dark navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow mb-3">
-                <div class="container-fluid">
-                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ProyectoWeb3</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                        <ul class="navbar-nav flex-grow-1">
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>*@
 
         <div class="">
             <main role="main">
@@ -83,16 +65,10 @@
             </main>
         </div>
 
-        <footer class="d-flex flex-wrap justify-content-around align-items-center py-3 my-4 border-top">
+        <footer class="d-flex flex-wrap justify-content-around align-items-center py-3 my-3 border-top">
             <div class="d-flex align-items-center">
                 <span class="text-muted">&copy; Universidad Nacional de la Matanza - Programacion Web 3</span>
             </div>
-
-            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter" /></svg></a></li>
-                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram" /></svg></a></li>
-                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook" /></svg></a></li>
-            </ul>
         </footer>
     </div>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
@@ -101,3 +77,19 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+
+<style>
+    body{
+        margin: 0 !important;
+    }
+    footer{
+        margin: 0 !important;
+        padding-top: 0!important;
+    }
+    #nav-lateral li:hover{
+        background-color: #0d6efd;
+        border-radius: 5px;
+    }
+
+
+</style>

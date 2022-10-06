@@ -7,8 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\assets\fondo-index.jpeg" />
-    <None Include="wwwroot\assets\Qatar2022.png" />
+    <None Include="wwwroot\images\Qatar2022.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Entidades\Entidades.csproj" />
   </ItemGroup>
 
 </Project>

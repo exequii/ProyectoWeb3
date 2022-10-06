@@ -3,21 +3,29 @@
 }
 
 <div class="d-flex align-content-center p-3" id="index">
-    <div class="w-50">
-        <h1 class="display-4">Cuenta Regresiva para Catar 2022</h1>
-        <p>
+    <div class="w-50 d-flex flex-column justify-content-center mb-4">
+        <h1 class="display-4 h1 text-white fw-bold">Cuenta Regresiva para Catar 2022</h1>
+        <p class="text-white p">
             En la cuenta atrás para el comienzo de la cita mundialista en Catar,
             el 20 de noviembre, FIFA+ presenta 100 de los mejores momentos de la historia
             de la Copa Mundial de la FIFA.
         </p>
-        <button class="btn btn-outline-info">Leer Más</button>
+        <button class="btn btn-primary w-25">Leer Más</button>
     </div>
 
 </div>
 
 <style>
+    .w-60{
+        width: 60%;
+    }
     #index{
-        height:550px;
-        background: url("../../wwwroot/assets/fondo-index.jpeg")
+        height:650px;
+        background-image: url("../images/fondo-index.jpg");
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    h1{
+        text-shadow: 0 2px 2px 2px black;
     }
 </style>

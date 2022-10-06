@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ProyectoWeb3.Models;
 using System.Diagnostics;
 
 namespace ProyectoWeb3.Controllers
@@ -18,15 +17,15 @@ namespace ProyectoWeb3.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Mundial()
         {
             return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        public IActionResult Contacto()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View();
         }
+
     }
 }
