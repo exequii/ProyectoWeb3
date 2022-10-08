@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css" />
 </head>
 <body class="d-flex">
-    <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 280px;">
+    <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 280px;" id="menu">
         <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
             <img src="~/images/Qatar2022.png" height="35" width="35" />
             <h2 class="fw-bolder">Futbolizados</h2>
@@ -57,15 +57,15 @@
         </div>
     </div>
     
-    <div class="w-100">
+    <div class="w-100" id="contenedor-render">
 
-        <div class="">
+        <div id="contenedor-body">
             <main role="main">
                 @RenderBody()
             </main>
         </div>
 
-        <footer class="d-flex flex-wrap justify-content-around align-items-center py-3 my-3 border-top">
+        <footer class="d-flex flex-wrap justify-content-around align-items-center border-top">
             <div class="d-flex align-items-center">
                 <span class="text-muted">&copy; Universidad Nacional de la Matanza - Programacion Web 3</span>
             </div>
@@ -74,6 +74,7 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <partial name="/Views/Shared/_ValidationScriptsPartial.cshtml" />
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
@@ -86,10 +87,27 @@
         margin: 0 !important;
         padding-top: 0!important;
     }
+    #menu{
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    #contenedor-render{
+        position: absolute;
+        top: 0;
+        left: 280px;
+        width: calc(100vw - 298px) !important;
+    }
+    #contenedor-body{
+        height: 91vh;
+    }
+    footer{
+        height: 8vh;
+        margin-top:1vh;
+    }
     #nav-lateral li:hover{
         background-color: #0d6efd;
         border-radius: 5px;
     }
-
-
 </style>

@@ -1,15 +1,32 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model List<Entidades.Usuario>
 
-<div id="fondo-usuarios">
+<div id="fondo-usuarios" class="d-flex justify-content-center align-items-center">
+    <table class="table py-3 bg-white border rounded shadow w-50">
+        <tr>
+            <th scope="col">idUsuario</th>
+            <th scope="col">Email</th>
+            <th scope="col">Contraseña</th>
+        </tr>
+        @foreach (var user in Model)
+        {
+            <tr scope="row">
+                <td>
+                    @user.Id
+                </td>
+                <td>
+                    @user.Email
+                </td>
+                <td>
+                    @user.Password
+                </td>
+            </tr>
+        }
+    </table>
 </div>
 
 <style>
     #fondo-usuarios {
-        min-height: 650px;
+        height:91vh;
         background-image: url("../images/fondo-index.jpg");
         background-size: cover;
         background-position: 50% 50%;

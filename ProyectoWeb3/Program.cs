@@ -1,7 +1,11 @@
+using Logica.Servicios;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddSingleton<IUsuarioService, UsuarioService>();
 
 var app = builder.Build();
 
