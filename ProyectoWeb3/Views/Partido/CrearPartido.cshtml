@@ -1,4 +1,6 @@
-﻿@model Entidades.Entidades.Partido
+﻿@using Entidades.Entidades
+
+@model Entidades.Entidades.Partido
 
 @{
     ViewData["Title"] = "Crear Partido";
@@ -8,30 +10,48 @@
     <div class="d-flex flex-column justify-content-around p-3 w-50 bg-white border-1 rounded" style="margin-left:5%;">
         <h1>Prediccion del partido</h1>
         <form action="/Partido/CrearPartido" method="post">
-            <div class="mb-3">
+          @*<div class="mb-3">
                 Grupo
-                <select class="form-control" @*name="" asp-for=""*@>
+                <select class="form-control" @*name="" asp-for="">
                     <option>A</option>
                 </select>
-                @*<span asp-validation-for="Email"></span>*@
+                <span asp-validation-for="Email"></span>
+            </div>*@
+            <div class="mb-3">
+                Seleccion 1
+                <select class="form-control" name="IdSeleccion1" asp-for="IdSeleccion1">
+                    @foreach (Seleccion seleccion in ViewBag.SeleccionesClasificadas)
+                    {
+                        <option value="@seleccion.IdSeleccion">@seleccion.Seleccion1</option>
+                    }
+                </select>
+                <span asp-validation-for="IdSeleccion1" class="text-danger"></span>
             </div>
             <div class="mb-3">
-                Seleccion1
-                <select class="form-control" @*name="" asp-for=""*@>
-                    <option>1</option>
-                </select>
                 Goles
-                <input type="number" class="form-control" @*name="" asp-for=""*@ />
+                <input type="number" class="form-control" name="GolesSeleccion1" asp-for="GolesSeleccion1" />
+                <span asp-validation-for="GolesSeleccion1" class="text-danger"></span>
             </div>
             <div class="mb-3">
-                Seleccion2
-                <select class="form-control" @*name="" asp-for=""*@>
-                    <option>2</option>
+                Seleccion 2
+                <select class="form-control" name="IdSeleccion2" asp-for="IdSeleccion2">
+                    @foreach (Seleccion seleccion2 in ViewBag.SeleccionesClasificadas)
+                    {
+                        <option value="@seleccion2.IdSeleccion">@seleccion2.Seleccion1</option>
+                    }
                 </select>
-                Goles
-                <input type="number" class="form-control" @*name="" asp-for=""*@ />
+                <span asp-validation-for="IdSeleccion2" class="text-danger"></span>
+                
             </div>
-            <input type="submit" class="btn btn-primary" value="Registrar" />
+            <div class="mb-3">
+                Goles
+                <input type="number" class="form-control" name="GolesSeleccion2" asp-for="GolesSeleccion2" />
+                <span asp-validation-for="GolesSeleccion2" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <span class="text-danger">@ViewBag.Error</span>
+            </div>
+            <input type="submit" class="btn btn-primary" value="Crear" />
         </form>
     </div>
 </div>

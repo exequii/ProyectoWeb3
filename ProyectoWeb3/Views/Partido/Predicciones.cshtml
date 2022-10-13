@@ -1,4 +1,5 @@
-﻿@model List<Entidades.Entidades.Partido>
+﻿@using Entidades.Entidades
+@model List<Entidades.Entidades.Partido>
 
 @{
     ViewData["Title"] = "Predicciones";
@@ -6,43 +7,50 @@
 
 <div id="fondo-resultados-prode" class="d-flex justify-content-start align-items-center">
     <div class="d-flex flex-column justify-content-around p-3 w-50 bg-white border-1 rounded" style="margin-left:5%;">
-        <a asp-area="" asp-controller="Partido" asp-action="CrearPartido" class="btn btn-primary text-white w-25 mb-2">
-            Crear Partido
-        </a>
-
+        <h2 class="">Predicciones mundialistas</h2>
         <table class="table py-3 bg-white border rounded shadow w-100 p-2">
             <tr>
-                <th scope="col">Id Partido</th>
-                <th scope="col">Seleccion 1</th>
-                <th scope="col">Goles</th>
-                <th scope="col">-</th>
-                <th scope="col">Goles</th>
-                <th scope="col">Seleccion 2</th>
+                <th class="text-center" scope="col">Id Partido</th>
+                <th class="text-center" scope="col">Seleccion 1</th>
+                <th class="text-center" scope="col">Goles</th>
+                <th class="text-center" scope="col">-</th>
+                <th class="text-center" scope="col">Goles</th>
+                <th class="text-center" scope="col">Seleccion 2</th>
             </tr>
             @foreach (var partido in Model)
             {
                 <tr scope="row">
-                    <td>
+                    <td class="text-center">
                         @partido.IdPartido
                     </td>
-                    <td>
-                        @partido.IdSeleccion1
+                    <td class="text-center">
+                        @foreach (var seleccion in ((List<Seleccion>)ViewBag.SeleccionesClasificadas).Where(s => s.IdSeleccion == partido.IdSeleccion1))
+                        {
+                            @seleccion.Seleccion1;
+                        }
                     </td>
-                    <td>
+                    <td class="text-center">
                         @partido.GolesSeleccion1
                     </td>
-                    <td>
+                    <td class="text-center">
                         -
                     </td>
-                    <td>
+                    <td class="text-center">
                         @partido.GolesSeleccion2
                     </td>
-                    <td>
-                        @partido.IdSeleccion2
+                    <td class="text-center">
+                        @foreach (var seleccion in ((List<Seleccion>)ViewBag.SeleccionesClasificadas).Where(s => s.IdSeleccion == partido.IdSeleccion2))
+                        {
+                            @seleccion.Seleccion1
+                            ;
+                        }
                     </td>
                 </tr>
             }
-        </table>    
+        </table>
+        <a asp-area="" asp-controller="Partido" asp-action="CrearPartido" class="btn btn-primary text-white w-25 mb-2">
+            Crear Partido
+        </a>
     </div>
 </div>
 

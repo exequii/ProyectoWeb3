@@ -11,6 +11,13 @@ namespace Logica.Servicios
     {
         void Crear(Partido partido);
         List<Partido> Listar();
+
+        Partido ObtenerPartidoPorId(int id);
+
+        List<Seleccion> ObtenerSelecciones();
+
+        List<Seleccion> ObtenerSeleccionesClasificadas();
+
     }
 
     public class PartidoService : IPartidoService
@@ -31,6 +38,21 @@ namespace Logica.Servicios
         public List<Partido> Listar()
         {
             return _context.Partidos.ToList();
+        }
+
+        public Partido ObtenerPartidoPorId(int id)
+        {
+            return _context.Partidos.Find(id);
+        }
+
+        public List<Seleccion> ObtenerSelecciones()
+        {
+            return _context.Seleccions.OrderBy(te => te.Seleccion1).ToList();
+        }
+
+        public List<Seleccion> ObtenerSeleccionesClasificadas()
+        {
+            return _context.Seleccions.Where(s => (bool)s.Clasificada).OrderBy(sc => sc.Seleccion1).ToList();
         }
 
     }

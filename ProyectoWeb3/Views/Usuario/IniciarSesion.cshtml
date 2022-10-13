@@ -1,13 +1,13 @@
 ﻿@model Entidades.Entidades.Usuario
 
 @{
-    ViewData["Title"] = "Registro";
+    ViewData["Title"] = "Iniciar Sesion";
 }
 
-<div class="w-100 d-flex justify-content-start align-items-center shadow" id="fondo-registro">
+<div class="w-100 d-flex justify-content-start align-items-center shadow" id="fondo-login">
     <div class="d-flex flex-column justify-content-around p-3 w-50 bg-white border-1 rounded" style="margin-left:5%;">
-        <h1>Bienvenido a Futbolizados!</h1>
-        <form action="/Usuario/Registrar" method="post">
+        <h1>Welcome back!</h1>
+        <form action="/Usuario/IniciarSesion" method="post">
             <div class="mb-3">
                 Email
                 <input type="email" class="form-control" name="Email" asp-for="Email">
@@ -21,13 +21,13 @@
             <div class="mb-3">
                 <span class="text-danger">@ViewBag.Error</span>
             </div>
-            <input type="submit" class="btn btn-primary" value="Registrar"/>
+            <input type="submit" class="btn btn-primary" value="Iniciar Sesion"/>
         </form>
     </div>
 </div>
 
 <style>
-    #fondo-registro{
+    #fondo-login {
         height:91vh;
         background-image: url("../images/fondo-index.jpg");
         background-size: cover;

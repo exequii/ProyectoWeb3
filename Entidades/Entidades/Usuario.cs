@@ -14,7 +14,7 @@ namespace Entidades.Entidades
 
 
         [Required(ErrorMessage = "Contraseña es requerida")]
-        [StringLength(10, ErrorMessage = "La contraseña no puede exceder los 20 caracteres de longitud")]
+        [StringLength(20, ErrorMessage = "La contraseña no puede exceder los 20 caracteres de longitud")]
         public string Contraseña { get; set; } = null!;
     }
 }

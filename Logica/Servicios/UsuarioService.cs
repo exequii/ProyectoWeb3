@@ -14,6 +14,11 @@ namespace Logica.Servicios
 
         List<Usuario> Listar();
 
+        Usuario? GetUsuarioPorId(int id);
+
+        Usuario? GetUsuario(Usuario usuario);
+
+        Usuario? ValidateUsuarioRegistrado(Usuario usuario);
     }
 
     public class UsuarioService : IUsuarioService
@@ -34,6 +39,44 @@ namespace Logica.Servicios
         public List<Usuario> Listar()
         {
             return _context.Usuarios.ToList();
+        }
+
+        public Usuario? GetUsuarioPorId(int id)
+        {
+            try
+            {
+                return _context.Usuarios.Find(id);
+            }
+            catch
+            {
+                return null;
+            }
+            
+        }
+
+        public Usuario? GetUsuario(Usuario usuario)
+        {
+            try
+            {
+                return _context.Usuarios.Where(u => u.Email == usuario.Email && u.Contraseña == usuario.Contraseña).First();
+            }
+            catch
+            {
+                return null;
+            }
+
+        }
+
+        public Usuario? ValidateUsuarioRegistrado(Usuario usuario)
+        {
+            try
+            {
+                return _context.Usuarios.Where(u => u.Email == usuario.Email).First();
+            }
+            catch
+            {
+                return null;
+            }
         }
 
     }
