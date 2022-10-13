@@ -1,4 +1,4 @@
-﻿using Entidades;
+﻿using Entidades.Entidades;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -13,29 +13,28 @@ namespace Logica.Servicios
         void Registrar(Usuario usuario);
 
         List<Usuario> Listar();
+
     }
 
     public class UsuarioService : IUsuarioService
     {
-        private List<Usuario> List { set; get; } = new List<Usuario>();
+        private ProyectoWeb3Context _context;
 
-        public int ObtenerMaxId()
+        public UsuarioService(ProyectoWeb3Context context)
         {
-            if (List.Count == 0)
-                return 0;
-
-            return List.Max(o => o.Id);
+            _context = context;
         }
 
         public void Registrar(Usuario usuario)
         {
-            usuario.Id = ObtenerMaxId() + 1;
-            List.Add(usuario);
+            _context.Usuarios.Add(usuario);
+            _context.SaveChanges();
         }
 
         public List<Usuario> Listar()
         {
-            return List;
+            return _context.Usuarios.ToList();
         }
+
     }
 }

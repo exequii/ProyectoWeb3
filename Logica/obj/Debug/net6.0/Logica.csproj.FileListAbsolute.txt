@@ -1,0 +1,17 @@
+E:\Users\ezequ\Documents\GitHub\ProyectoWeb3\Logica\bin\Debug\net6.0\Logica.deps.json
+E:\Users\ezequ\Documents\GitHub\ProyectoWeb3\Logica\bin\Debug\net6.0\Logica.runtimeconfig.json
+E:\Users\ezequ\Documents\GitHub\ProyectoWeb3\Logica\bin\Debug\net6.0\Logica.dll
+E:\Users\ezequ\Documents\GitHub\ProyectoWeb3\Logica\bin\Debug\net6.0\Logica.pdb
+E:\Users\ezequ\Documents\GitHub\ProyectoWeb3\Logica\bin\Debug\net6.0\Entidades.dll
+E:\Users\ezequ\Documents\GitHub\ProyectoWeb3\Logica\bin\Debug\net6.0\Entidades.pdb
+E:\Users\ezequ\Documents\GitHub\ProyectoWeb3\Logica\obj\Debug\net6.0\Logica.csproj.AssemblyReference.cache
+E:\Users\ezequ\Documents\GitHub\ProyectoWeb3\Logica\obj\Debug\net6.0\Logica.GeneratedMSBuildEditorConfig.editorconfig
+E:\Users\ezequ\Documents\GitHub\ProyectoWeb3\Logica\obj\Debug\net6.0\Logica.AssemblyInfoInputs.cache
+E:\Users\ezequ\Documents\GitHub\ProyectoWeb3\Logica\obj\Debug\net6.0\Logica.AssemblyInfo.cs
+E:\Users\ezequ\Documents\GitHub\ProyectoWeb3\Logica\obj\Debug\net6.0\Logica.csproj.CoreCompileInputs.cache
+E:\Users\ezequ\Documents\GitHub\ProyectoWeb3\Logica\obj\Debug\net6.0\Logica.csproj.CopyComplete
+E:\Users\ezequ\Documents\GitHub\ProyectoWeb3\Logica\obj\Debug\net6.0\Logica.dll
+E:\Users\ezequ\Documents\GitHub\ProyectoWeb3\Logica\obj\Debug\net6.0\refint\Logica.dll
+E:\Users\ezequ\Documents\GitHub\ProyectoWeb3\Logica\obj\Debug\net6.0\Logica.pdb
+E:\Users\ezequ\Documents\GitHub\ProyectoWeb3\Logica\obj\Debug\net6.0\Logica.genruntimeconfig.cache
+E:\Users\ezequ\Documents\GitHub\ProyectoWeb3\Logica\obj\Debug\net6.0\ref\Logica.dll

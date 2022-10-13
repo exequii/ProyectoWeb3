@@ -8,37 +8,57 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProyectoWeb3
 build_property.RootNamespace = ProyectoWeb3
-build_property.ProjectDir = C:\Ezequiel\ProyectoWeb3\ProyectoWeb3\
+build_property.ProjectDir = E:\Users\ezequ\Documents\GitHub\ProyectoWeb3\ProyectoWeb3\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Ezequiel\ProyectoWeb3\ProyectoWeb3
+build_property.MSBuildProjectDirectory = E:\Users\ezequ\Documents\GitHub\ProyectoWeb3\ProyectoWeb3
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Ezequiel/ProyectoWeb3/ProyectoWeb3/Views/Home/Index.cshtml]
+[E:/Users/ezequ/Documents/GitHub/ProyectoWeb3/ProyectoWeb3/Views/Home/Contacto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Users/ezequ/Documents/GitHub/ProyectoWeb3/ProyectoWeb3/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ezequiel/ProyectoWeb3/ProyectoWeb3/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[E:/Users/ezequ/Documents/GitHub/ProyectoWeb3/ProyectoWeb3/Views/Home/Mundial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNdW5kaWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ezequiel/ProyectoWeb3/ProyectoWeb3/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[E:/Users/ezequ/Documents/GitHub/ProyectoWeb3/ProyectoWeb3/Views/Partido/CrearPartido.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlkb1xDcmVhclBhcnRpZG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ezequiel/ProyectoWeb3/ProyectoWeb3/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/Users/ezequ/Documents/GitHub/ProyectoWeb3/ProyectoWeb3/Views/Partido/Predicciones.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlkb1xQcmVkaWNjaW9uZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Users/ezequ/Documents/GitHub/ProyectoWeb3/ProyectoWeb3/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ezequiel/ProyectoWeb3/ProyectoWeb3/Views/_ViewImports.cshtml]
+[E:/Users/ezequ/Documents/GitHub/ProyectoWeb3/ProyectoWeb3/Views/Usuario/PerfilUsuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xQZXJmaWxVc3VhcmlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Users/ezequ/Documents/GitHub/ProyectoWeb3/ProyectoWeb3/Views/Usuario/Registrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xSZWdpc3RyYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Users/ezequ/Documents/GitHub/ProyectoWeb3/ProyectoWeb3/Views/Usuario/Usuarios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xVc3Vhcmlvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Users/ezequ/Documents/GitHub/ProyectoWeb3/ProyectoWeb3/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ezequiel/ProyectoWeb3/ProyectoWeb3/Views/_ViewStart.cshtml]
+[E:/Users/ezequ/Documents/GitHub/ProyectoWeb3/ProyectoWeb3/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ezequiel/ProyectoWeb3/ProyectoWeb3/Views/Shared/_Layout.cshtml]
+[E:/Users/ezequ/Documents/GitHub/ProyectoWeb3/ProyectoWeb3/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-gsdc75uepb

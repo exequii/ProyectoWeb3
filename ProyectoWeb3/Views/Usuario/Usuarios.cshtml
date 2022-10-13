@@ -1,4 +1,8 @@
-﻿@model List<Entidades.Usuario>
+﻿@model List<Entidades.Entidades.Usuario>
+
+@{
+    ViewData["Title"] = "Usuarios";
+}
 
 <div id="fondo-usuarios" class="d-flex justify-content-center align-items-center">
     <table class="table py-3 bg-white border rounded shadow w-50">
@@ -11,13 +15,13 @@
         {
             <tr scope="row">
                 <td>
-                    @user.Id
+                    @user.IdUsuario
                 </td>
                 <td>
                     @user.Email
                 </td>
                 <td>
-                    @user.Password
+                    @user.Contraseña
                 </td>
             </tr>
         }

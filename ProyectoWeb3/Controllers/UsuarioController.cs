@@ -1,4 +1,4 @@
-﻿using Entidades;
+﻿using Entidades.Entidades;
 using Logica.Servicios;
 using Microsoft.AspNetCore.Mvc;
 

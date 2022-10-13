@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Ezequiel\\ProyectoWeb3\\Entidades\\Entidades.csproj": {}
+    "E:\\Users\\ezequ\\Documents\\GitHub\\ProyectoWeb3\\Entidades\\Entidades.csproj": {}
   },
   "projects": {
-    "C:\\Ezequiel\\ProyectoWeb3\\Entidades\\Entidades.csproj": {
+    "E:\\Users\\ezequ\\Documents\\GitHub\\ProyectoWeb3\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Ezequiel\\ProyectoWeb3\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "E:\\Users\\ezequ\\Documents\\GitHub\\ProyectoWeb3\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "C:\\Ezequiel\\ProyectoWeb3\\Entidades\\Entidades.csproj",
-        "packagesPath": "C:\\Users\\es250396\\.nuget\\packages\\",
-        "outputPath": "C:\\Ezequiel\\ProyectoWeb3\\Entidades\\obj\\",
+        "projectPath": "E:\\Users\\ezequ\\Documents\\GitHub\\ProyectoWeb3\\Entidades\\Entidades.csproj",
+        "packagesPath": "C:\\Users\\EZEQUIEL\\.nuget\\packages\\",
+        "outputPath": "E:\\Users\\ezequ\\Documents\\GitHub\\ProyectoWeb3\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\es250396\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\EZEQUIEL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,32 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

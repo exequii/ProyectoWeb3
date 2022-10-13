@@ -1,4 +1,8 @@
-﻿@model Entidades.Usuario
+﻿@model Entidades.Entidades.Usuario
+
+@{
+    ViewData["Title"] = "Registro";
+}
 
 <div class="w-100 d-flex justify-content-start align-items-center shadow" id="fondo-registro">
     <div class="d-flex flex-column justify-content-around p-3 w-50 bg-white border-1 rounded" style="margin-left:5%;">
@@ -11,8 +15,8 @@
             </div>
             <div class="mb-3">
                 Contraseña
-                <input type="password" class="form-control" name="Password" asp-for="Password">
-                <span asp-validation-for="Password"></span>
+                <input type="password" class="form-control" name="Contraseña" asp-for="Contraseña">
+                <span asp-validation-for="Contraseña"></span>
             </div>
             <input type="submit" class="btn btn-primary" value="Registrar"/>
         </form>

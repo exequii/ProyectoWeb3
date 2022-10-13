@@ -1,0 +1,56 @@
+﻿@model List<Entidades.Entidades.Partido>
+
+@{
+    ViewData["Title"] = "Predicciones";
+}
+
+<div id="fondo-resultados-prode" class="d-flex justify-content-start align-items-center">
+    <div class="d-flex flex-column justify-content-around p-3 w-50 bg-white border-1 rounded" style="margin-left:5%;">
+        <a asp-area="" asp-controller="Partido" asp-action="CrearPartido" class="btn btn-primary text-white w-25 mb-2">
+            Crear Partido
+        </a>
+
+        <table class="table py-3 bg-white border rounded shadow w-100 p-2">
+            <tr>
+                <th scope="col">Id Partido</th>
+                <th scope="col">Seleccion 1</th>
+                <th scope="col">Goles</th>
+                <th scope="col">-</th>
+                <th scope="col">Goles</th>
+                <th scope="col">Seleccion 2</th>
+            </tr>
+            @foreach (var partido in Model)
+            {
+                <tr scope="row">
+                    <td>
+                        @partido.IdPartido
+                    </td>
+                    <td>
+                        @partido.IdSeleccion1
+                    </td>
+                    <td>
+                        @partido.GolesSeleccion1
+                    </td>
+                    <td>
+                        -
+                    </td>
+                    <td>
+                        @partido.GolesSeleccion2
+                    </td>
+                    <td>
+                        @partido.IdSeleccion2
+                    </td>
+                </tr>
+            }
+        </table>    
+    </div>
+</div>
+
+<style>
+    #fondo-resultados-prode {
+        height:91vh;
+        background-image: url("../images/fondo-index.jpg");
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+</style>

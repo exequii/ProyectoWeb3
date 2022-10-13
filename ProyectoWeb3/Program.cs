@@ -1,3 +1,4 @@
+using Entidades.Entidades;
 using Logica.Servicios;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -5,7 +6,9 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddSingleton<IUsuarioService, UsuarioService>();
+builder.Services.AddScoped<ProyectoWeb3Context>();
+builder.Services.AddScoped<IUsuarioService, UsuarioService>();
+builder.Services.AddScoped<IPartidoService, PartidoService>();
 
 var app = builder.Build();
 
