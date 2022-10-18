@@ -27,5 +27,10 @@ namespace ProyectoWeb3.Controllers
             return View();
         }
 
+        public IActionResult ChatBot()
+        {
+            return View();
+        }
+
     }
 }
