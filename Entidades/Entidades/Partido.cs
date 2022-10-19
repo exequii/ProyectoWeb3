@@ -1,10 +1,16 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace Entidades.Entidades
 {
+    [ModelMetadataType(typeof(PartidoModelMetaData))]
     public partial class Partido
+    {
+    }
+
+    public class PartidoModelMetaData
     {
         public int IdPartido { get; set; }
 
