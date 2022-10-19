@@ -1,11 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace Entidades.Entidades
 {
-    [ModelMetadataType(typeof(UsuarioModelMetaData))]
+    [MetadataType(typeof(UsuarioModelMetaData))]
     public partial class Usuario
     {
     }
