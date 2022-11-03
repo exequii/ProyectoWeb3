@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Logica",
+    "\\Logica\\Servicios",
+    "\\ProyectoWeb3",
+    "\\ProyectoWeb3\\Controllers",
+    "\\ProyectoWeb3\\Views",
+    "\\ProyectoWeb3\\Views\\Home",
+    "\\ProyectoWeb3\\Views\\Partido",
+    "\\ProyectoWeb3\\Views\\Shared",
+    "\\ProyectoWeb3\\wwwroot"
+  ],
+  "SelectedNode": "\\ProyectoWeb3.sln",
+  "PreviewInSolutionExplorer": false
+}

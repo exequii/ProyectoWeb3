@@ -12,3 +12,17 @@ E:\Users\ezequ\Documents\GitHub\ProyectoWeb3\Entidades\obj\Debug\net6.0\refint\E
 E:\Users\ezequ\Documents\GitHub\ProyectoWeb3\Entidades\obj\Debug\net6.0\Entidades.pdb
 E:\Users\ezequ\Documents\GitHub\ProyectoWeb3\Entidades\obj\Debug\net6.0\Entidades.genruntimeconfig.cache
 E:\Users\ezequ\Documents\GitHub\ProyectoWeb3\Entidades\obj\Debug\net6.0\ref\Entidades.dll
+F:\TECNICATURA DESARROLLADOR WEB\PROGRAMACION WEB 3\ProyectoWeb3\Entidades\bin\Debug\net6.0\Entidades.deps.json
+F:\TECNICATURA DESARROLLADOR WEB\PROGRAMACION WEB 3\ProyectoWeb3\Entidades\bin\Debug\net6.0\Entidades.runtimeconfig.json
+F:\TECNICATURA DESARROLLADOR WEB\PROGRAMACION WEB 3\ProyectoWeb3\Entidades\bin\Debug\net6.0\Entidades.dll
+F:\TECNICATURA DESARROLLADOR WEB\PROGRAMACION WEB 3\ProyectoWeb3\Entidades\bin\Debug\net6.0\Entidades.pdb
+F:\TECNICATURA DESARROLLADOR WEB\PROGRAMACION WEB 3\ProyectoWeb3\Entidades\obj\Debug\net6.0\Entidades.csproj.AssemblyReference.cache
+F:\TECNICATURA DESARROLLADOR WEB\PROGRAMACION WEB 3\ProyectoWeb3\Entidades\obj\Debug\net6.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+F:\TECNICATURA DESARROLLADOR WEB\PROGRAMACION WEB 3\ProyectoWeb3\Entidades\obj\Debug\net6.0\Entidades.AssemblyInfoInputs.cache
+F:\TECNICATURA DESARROLLADOR WEB\PROGRAMACION WEB 3\ProyectoWeb3\Entidades\obj\Debug\net6.0\Entidades.AssemblyInfo.cs
+F:\TECNICATURA DESARROLLADOR WEB\PROGRAMACION WEB 3\ProyectoWeb3\Entidades\obj\Debug\net6.0\Entidades.csproj.CoreCompileInputs.cache
+F:\TECNICATURA DESARROLLADOR WEB\PROGRAMACION WEB 3\ProyectoWeb3\Entidades\obj\Debug\net6.0\Entidades.dll
+F:\TECNICATURA DESARROLLADOR WEB\PROGRAMACION WEB 3\ProyectoWeb3\Entidades\obj\Debug\net6.0\refint\Entidades.dll
+F:\TECNICATURA DESARROLLADOR WEB\PROGRAMACION WEB 3\ProyectoWeb3\Entidades\obj\Debug\net6.0\Entidades.pdb
+F:\TECNICATURA DESARROLLADOR WEB\PROGRAMACION WEB 3\ProyectoWeb3\Entidades\obj\Debug\net6.0\Entidades.genruntimeconfig.cache
+F:\TECNICATURA DESARROLLADOR WEB\PROGRAMACION WEB 3\ProyectoWeb3\Entidades\obj\Debug\net6.0\ref\Entidades.dll

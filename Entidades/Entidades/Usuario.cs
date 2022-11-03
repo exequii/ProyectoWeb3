@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 
 namespace Entidades.Entidades
 {
@@ -10,6 +9,4 @@ namespace Entidades.Entidades
         public string Email { get; set; } = null!;
         public string Contraseña { get; set; } = null!;
     }
-
-
 }

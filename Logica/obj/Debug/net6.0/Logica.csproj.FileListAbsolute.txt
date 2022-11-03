@@ -15,3 +15,20 @@ E:\Users\ezequ\Documents\GitHub\ProyectoWeb3\Logica\obj\Debug\net6.0\refint\Logi
 E:\Users\ezequ\Documents\GitHub\ProyectoWeb3\Logica\obj\Debug\net6.0\Logica.pdb
 E:\Users\ezequ\Documents\GitHub\ProyectoWeb3\Logica\obj\Debug\net6.0\Logica.genruntimeconfig.cache
 E:\Users\ezequ\Documents\GitHub\ProyectoWeb3\Logica\obj\Debug\net6.0\ref\Logica.dll
+F:\TECNICATURA DESARROLLADOR WEB\PROGRAMACION WEB 3\ProyectoWeb3\Logica\obj\Debug\net6.0\Logica.dll
+F:\TECNICATURA DESARROLLADOR WEB\PROGRAMACION WEB 3\ProyectoWeb3\Logica\obj\Debug\net6.0\refint\Logica.dll
+F:\TECNICATURA DESARROLLADOR WEB\PROGRAMACION WEB 3\ProyectoWeb3\Logica\obj\Debug\net6.0\Logica.pdb
+F:\TECNICATURA DESARROLLADOR WEB\PROGRAMACION WEB 3\ProyectoWeb3\Logica\obj\Debug\net6.0\Logica.csproj.AssemblyReference.cache
+F:\TECNICATURA DESARROLLADOR WEB\PROGRAMACION WEB 3\ProyectoWeb3\Logica\obj\Debug\net6.0\Logica.GeneratedMSBuildEditorConfig.editorconfig
+F:\TECNICATURA DESARROLLADOR WEB\PROGRAMACION WEB 3\ProyectoWeb3\Logica\obj\Debug\net6.0\Logica.AssemblyInfoInputs.cache
+F:\TECNICATURA DESARROLLADOR WEB\PROGRAMACION WEB 3\ProyectoWeb3\Logica\obj\Debug\net6.0\Logica.AssemblyInfo.cs
+F:\TECNICATURA DESARROLLADOR WEB\PROGRAMACION WEB 3\ProyectoWeb3\Logica\obj\Debug\net6.0\Logica.csproj.CoreCompileInputs.cache
+F:\TECNICATURA DESARROLLADOR WEB\PROGRAMACION WEB 3\ProyectoWeb3\Logica\bin\Debug\net6.0\Logica.deps.json
+F:\TECNICATURA DESARROLLADOR WEB\PROGRAMACION WEB 3\ProyectoWeb3\Logica\bin\Debug\net6.0\Logica.runtimeconfig.json
+F:\TECNICATURA DESARROLLADOR WEB\PROGRAMACION WEB 3\ProyectoWeb3\Logica\bin\Debug\net6.0\Logica.dll
+F:\TECNICATURA DESARROLLADOR WEB\PROGRAMACION WEB 3\ProyectoWeb3\Logica\bin\Debug\net6.0\Logica.pdb
+F:\TECNICATURA DESARROLLADOR WEB\PROGRAMACION WEB 3\ProyectoWeb3\Logica\bin\Debug\net6.0\Entidades.dll
+F:\TECNICATURA DESARROLLADOR WEB\PROGRAMACION WEB 3\ProyectoWeb3\Logica\bin\Debug\net6.0\Entidades.pdb
+F:\TECNICATURA DESARROLLADOR WEB\PROGRAMACION WEB 3\ProyectoWeb3\Logica\obj\Debug\net6.0\Logica.csproj.CopyComplete
+F:\TECNICATURA DESARROLLADOR WEB\PROGRAMACION WEB 3\ProyectoWeb3\Logica\obj\Debug\net6.0\Logica.genruntimeconfig.cache
+F:\TECNICATURA DESARROLLADOR WEB\PROGRAMACION WEB 3\ProyectoWeb3\Logica\obj\Debug\net6.0\ref\Logica.dll

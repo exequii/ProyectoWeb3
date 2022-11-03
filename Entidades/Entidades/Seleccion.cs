@@ -3,8 +3,10 @@ using System.Collections.Generic;
 
 namespace Entidades.Entidades
 {
+    [Serializable]
     public partial class Seleccion
     {
+        
         public Seleccion()
         {
             GrupoIdSeleccion1Navigations = new HashSet<Grupo>();

@@ -18,6 +18,12 @@ namespace Logica.Servicios
 
         List<Seleccion> ObtenerSeleccionesClasificadas();
 
+        List<Grupo> obtenerGrupos();
+
+        Seleccion ObtenerSeleccionPorNombre(string nombre);
+
+        
+
     }
 
     public class PartidoService : IPartidoService
@@ -55,5 +61,27 @@ namespace Logica.Servicios
             return _context.Seleccions.Where(s => (bool)s.Clasificada).OrderBy(sc => sc.Seleccion1).ToList();
         }
 
+        public List<Grupo> obtenerGrupos()
+        {
+
+            return _context.Grupos.ToList();
+        }
+
+        public Seleccion  ObtenerSeleccionPorNombre(string nombre)
+        {
+
+
+
+            Seleccion seleccionBuscada = _context.Seleccions.FirstOrDefault(s => s.Seleccion1.Equals(nombre));
+          
+            
+            return seleccionBuscada;
+           
+            
+            // Seleccion seleccionBuscada2 = (Seleccion)(from s in _context.Seleccions select s.Seleccion1.Equals(nombre));
+
+            // return (Seleccion)_context.Seleccions.Where(s => s.Seleccion1.Equals(nombre)).First();
+
+        }
     }
 }
