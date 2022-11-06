@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Users\\ezequ\\Documents\\GitHub\\ProyectoWeb3\\ProyectoWeb3\\ProyectoWeb3.csproj": {}
+    "C:\\Users\\N0240\\Desktop\\PW3\\ProyectoWeb3\\ProyectoWeb3\\ProyectoWeb3.csproj": {}
   },
   "projects": {
-    "E:\\Users\\ezequ\\Documents\\GitHub\\ProyectoWeb3\\Entidades\\Entidades.csproj": {
+    "C:\\Users\\N0240\\Desktop\\PW3\\ProyectoWeb3\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Users\\ezequ\\Documents\\GitHub\\ProyectoWeb3\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\N0240\\Desktop\\PW3\\ProyectoWeb3\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "E:\\Users\\ezequ\\Documents\\GitHub\\ProyectoWeb3\\Entidades\\Entidades.csproj",
-        "packagesPath": "C:\\Users\\EZEQUIEL\\.nuget\\packages\\",
-        "outputPath": "E:\\Users\\ezequ\\Documents\\GitHub\\ProyectoWeb3\\Entidades\\obj\\",
+        "projectPath": "C:\\Users\\N0240\\Desktop\\PW3\\ProyectoWeb3\\Entidades\\Entidades.csproj",
+        "packagesPath": "C:\\Users\\N0240\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\N0240\\Desktop\\PW3\\ProyectoWeb3\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\EZEQUIEL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\N0240\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,6 +45,10 @@
               "target": "Package",
               "version": "[6.4.4, )"
             },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.10, )"
@@ -85,17 +90,17 @@
         }
       }
     },
-    "E:\\Users\\ezequ\\Documents\\GitHub\\ProyectoWeb3\\Logica\\Logica.csproj": {
+    "C:\\Users\\N0240\\Desktop\\PW3\\ProyectoWeb3\\Logica\\Logica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Users\\ezequ\\Documents\\GitHub\\ProyectoWeb3\\Logica\\Logica.csproj",
+        "projectUniqueName": "C:\\Users\\N0240\\Desktop\\PW3\\ProyectoWeb3\\Logica\\Logica.csproj",
         "projectName": "Logica",
-        "projectPath": "E:\\Users\\ezequ\\Documents\\GitHub\\ProyectoWeb3\\Logica\\Logica.csproj",
-        "packagesPath": "C:\\Users\\EZEQUIEL\\.nuget\\packages\\",
-        "outputPath": "E:\\Users\\ezequ\\Documents\\GitHub\\ProyectoWeb3\\Logica\\obj\\",
+        "projectPath": "C:\\Users\\N0240\\Desktop\\PW3\\ProyectoWeb3\\Logica\\Logica.csproj",
+        "packagesPath": "C:\\Users\\N0240\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\N0240\\Desktop\\PW3\\ProyectoWeb3\\Logica\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\EZEQUIEL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\N0240\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -103,14 +108,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Users\\ezequ\\Documents\\GitHub\\ProyectoWeb3\\Entidades\\Entidades.csproj": {
-                "projectPath": "E:\\Users\\ezequ\\Documents\\GitHub\\ProyectoWeb3\\Entidades\\Entidades.csproj"
+              "C:\\Users\\N0240\\Desktop\\PW3\\ProyectoWeb3\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\N0240\\Desktop\\PW3\\ProyectoWeb3\\Entidades\\Entidades.csproj"
               }
             }
           }
@@ -170,17 +176,17 @@
         }
       }
     },
-    "E:\\Users\\ezequ\\Documents\\GitHub\\ProyectoWeb3\\ProyectoWeb3\\ProyectoWeb3.csproj": {
+    "C:\\Users\\N0240\\Desktop\\PW3\\ProyectoWeb3\\ProyectoWeb3\\ProyectoWeb3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Users\\ezequ\\Documents\\GitHub\\ProyectoWeb3\\ProyectoWeb3\\ProyectoWeb3.csproj",
+        "projectUniqueName": "C:\\Users\\N0240\\Desktop\\PW3\\ProyectoWeb3\\ProyectoWeb3\\ProyectoWeb3.csproj",
         "projectName": "ProyectoWeb3",
-        "projectPath": "E:\\Users\\ezequ\\Documents\\GitHub\\ProyectoWeb3\\ProyectoWeb3\\ProyectoWeb3.csproj",
-        "packagesPath": "C:\\Users\\EZEQUIEL\\.nuget\\packages\\",
-        "outputPath": "E:\\Users\\ezequ\\Documents\\GitHub\\ProyectoWeb3\\ProyectoWeb3\\obj\\",
+        "projectPath": "C:\\Users\\N0240\\Desktop\\PW3\\ProyectoWeb3\\ProyectoWeb3\\ProyectoWeb3.csproj",
+        "packagesPath": "C:\\Users\\N0240\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\N0240\\Desktop\\PW3\\ProyectoWeb3\\ProyectoWeb3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\EZEQUIEL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\N0240\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -188,17 +194,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Users\\ezequ\\Documents\\GitHub\\ProyectoWeb3\\Entidades\\Entidades.csproj": {
-                "projectPath": "E:\\Users\\ezequ\\Documents\\GitHub\\ProyectoWeb3\\Entidades\\Entidades.csproj"
+              "C:\\Users\\N0240\\Desktop\\PW3\\ProyectoWeb3\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\N0240\\Desktop\\PW3\\ProyectoWeb3\\Entidades\\Entidades.csproj"
               },
-              "E:\\Users\\ezequ\\Documents\\GitHub\\ProyectoWeb3\\Logica\\Logica.csproj": {
-                "projectPath": "E:\\Users\\ezequ\\Documents\\GitHub\\ProyectoWeb3\\Logica\\Logica.csproj"
+              "C:\\Users\\N0240\\Desktop\\PW3\\ProyectoWeb3\\Logica\\Logica.csproj": {
+                "projectPath": "C:\\Users\\N0240\\Desktop\\PW3\\ProyectoWeb3\\Logica\\Logica.csproj"
               }
             }
           }
@@ -216,6 +223,10 @@
             "EntityFramework": {
               "target": "Package",
               "version": "[6.4.4, )"
+            },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",

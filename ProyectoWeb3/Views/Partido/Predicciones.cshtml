@@ -8,6 +8,15 @@
 <div id="fondo-resultados-prode" class="d-flex justify-content-start align-items-center">
     <div class="d-flex flex-column justify-content-around p-3 w-50 bg-white border-1 rounded" style="margin-left:5%;">
         <h2 class="">Predicciones mundialistas</h2>
+        <div class="dropdown mb-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Filtrar por
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="/Partido/Predicciones/1">Todas las predicciones</a></li>
+                <li><a class="dropdown-item" href="/Partido/Predicciones/2">Mis predicciones</a></li>
+            </ul>
+        </div>
         <table class="table py-3 bg-white border rounded shadow w-100 p-2">
             <tr>
                 <th class="text-center" scope="col">Id Partido</th>
@@ -16,6 +25,7 @@
                 <th class="text-center" scope="col">-</th>
                 <th class="text-center" scope="col">Goles</th>
                 <th class="text-center" scope="col">Seleccion 2</th>
+                <th class="text-center" scope="col">Usuario</th>
             </tr>
             @foreach (var partido in Model)
             {
@@ -44,6 +54,9 @@
                             @seleccion.Seleccion1
                             ;
                         }
+                    </td>
+                    <td class="text-center">
+                        @partido.Usuario
                     </td>
                 </tr>
             }

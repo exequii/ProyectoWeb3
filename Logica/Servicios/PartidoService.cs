@@ -9,9 +9,10 @@ namespace Logica.Servicios
 {
     public interface IPartidoService
     {
+        void Crear(Partido partido,Usuario usuario);
         void Crear(Partido partido);
         List<Partido> Listar();
-
+        List<Partido> Filtrar(Usuario usuario);
         Partido ObtenerPartidoPorId(int id);
 
         List<Seleccion> ObtenerSelecciones();
@@ -29,10 +30,26 @@ namespace Logica.Servicios
             _context = context;
         }
 
+        public void Crear(Partido partido,Usuario usuario)
+        {
+            partido.Usuario = usuario.IdUsuario;
+            _context.Partidos.Add(partido);
+            _context.SaveChanges();
+        }
+
         public void Crear(Partido partido)
         {
             _context.Partidos.Add(partido);
             _context.SaveChanges();
+        }
+
+        public List<Partido> Filtrar(Usuario usuario)
+        {
+            var partidos = from p in _context.Partidos
+                           where p.Usuario == (usuario.IdUsuario)
+                           select p;
+
+            return partidos.ToList();
         }
 
         public List<Partido> Listar()

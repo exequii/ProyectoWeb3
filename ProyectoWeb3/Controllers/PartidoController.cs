@@ -7,9 +7,11 @@ namespace ProyectoWeb3.Controllers
     public class PartidoController : Controller
     {
         public IPartidoService _partidoController { get; set; }
-        public PartidoController(IPartidoService partidoService)
+        public IUsuarioService _usuarioService { get; set; }
+        public PartidoController(IPartidoService partidoService, IUsuarioService usuarioService)
         {
             _partidoController = partidoService;
+            _usuarioService = usuarioService;
         }
 
         [HttpGet]
@@ -28,13 +30,35 @@ namespace ProyectoWeb3.Controllers
                 ViewBag.Error = "Las selecciones ingresadas no pueden enfrentarse ya que son la misma";
                 return View(partido);
             }
-            _partidoController.Crear(partido);
+            Usuario usuario = _usuarioService.GetUsuarioPorEmail(HttpContext.Session.GetString("Email"));
+
+            if(usuario==null)
+            {
+                _partidoController.Crear(partido);
+                return Redirect("/Partido/Predicciones");
+            }
+            _partidoController.Crear(partido,usuario);
             return Redirect("/Partido/Predicciones");
-        }
+        }/*
         public IActionResult Predicciones()
         {
             ViewBag.SeleccionesClasificadas = _partidoController.ObtenerSeleccionesClasificadas();
             return View(_partidoController.Listar());
+        }*/
+
+        public IActionResult Predicciones(int id)
+        {
+            Usuario usuario = _usuarioService.GetUsuarioPorEmail(HttpContext.Session.GetString("Email"));
+
+            if (id == 2 & usuario!=null) 
+            {
+                
+                ViewBag.SeleccionesClasificadas = _partidoController.ObtenerSeleccionesClasificadas();
+                return View(_partidoController.Filtrar(usuario));
+            }
+            ViewBag.SeleccionesClasificadas = _partidoController.ObtenerSeleccionesClasificadas();
+            return View(_partidoController.Listar());
         }
+
     }
 }

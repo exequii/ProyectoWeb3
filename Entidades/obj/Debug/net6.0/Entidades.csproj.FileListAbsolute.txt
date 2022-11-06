@@ -12,3 +12,17 @@ E:\Users\ezequ\Documents\GitHub\ProyectoWeb3\Entidades\obj\Debug\net6.0\refint\E
 E:\Users\ezequ\Documents\GitHub\ProyectoWeb3\Entidades\obj\Debug\net6.0\Entidades.pdb
 E:\Users\ezequ\Documents\GitHub\ProyectoWeb3\Entidades\obj\Debug\net6.0\Entidades.genruntimeconfig.cache
 E:\Users\ezequ\Documents\GitHub\ProyectoWeb3\Entidades\obj\Debug\net6.0\ref\Entidades.dll
+C:\Users\N0240\Desktop\PW3\ProyectoWeb3\Entidades\bin\Debug\net6.0\Entidades.deps.json
+C:\Users\N0240\Desktop\PW3\ProyectoWeb3\Entidades\bin\Debug\net6.0\Entidades.runtimeconfig.json
+C:\Users\N0240\Desktop\PW3\ProyectoWeb3\Entidades\bin\Debug\net6.0\Entidades.dll
+C:\Users\N0240\Desktop\PW3\ProyectoWeb3\Entidades\bin\Debug\net6.0\Entidades.pdb
+C:\Users\N0240\Desktop\PW3\ProyectoWeb3\Entidades\obj\Debug\net6.0\Entidades.csproj.AssemblyReference.cache
+C:\Users\N0240\Desktop\PW3\ProyectoWeb3\Entidades\obj\Debug\net6.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\N0240\Desktop\PW3\ProyectoWeb3\Entidades\obj\Debug\net6.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\N0240\Desktop\PW3\ProyectoWeb3\Entidades\obj\Debug\net6.0\Entidades.AssemblyInfo.cs
+C:\Users\N0240\Desktop\PW3\ProyectoWeb3\Entidades\obj\Debug\net6.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\N0240\Desktop\PW3\ProyectoWeb3\Entidades\obj\Debug\net6.0\Entidades.dll
+C:\Users\N0240\Desktop\PW3\ProyectoWeb3\Entidades\obj\Debug\net6.0\refint\Entidades.dll
+C:\Users\N0240\Desktop\PW3\ProyectoWeb3\Entidades\obj\Debug\net6.0\Entidades.pdb
+C:\Users\N0240\Desktop\PW3\ProyectoWeb3\Entidades\obj\Debug\net6.0\Entidades.genruntimeconfig.cache
+C:\Users\N0240\Desktop\PW3\ProyectoWeb3\Entidades\obj\Debug\net6.0\ref\Entidades.dll

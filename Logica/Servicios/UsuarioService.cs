@@ -15,7 +15,7 @@ namespace Logica.Servicios
         List<Usuario> Listar();
 
         Usuario? GetUsuarioPorId(int id);
-
+        Usuario? GetUsuarioPorEmail(String email);
         Usuario? GetUsuario(Usuario usuario);
 
         Usuario? ValidateUsuarioRegistrado(Usuario usuario);
@@ -79,5 +79,20 @@ namespace Logica.Servicios
             }
         }
 
+        public Usuario? GetUsuarioPorEmail(string email)
+        {
+
+            if(email == null | email == "")
+            {
+                return null;
+            }
+            var usuario = from u in _context.Usuarios
+                              where u.Email == email
+                              select u;
+
+            return usuario.First();
+            
+            
+        }
     }
 }

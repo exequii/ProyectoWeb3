@@ -26,7 +26,7 @@ namespace Entidades.Entidades
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("Server=.;Database=ProyectoWeb3;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("Server=DESKTOP-5C837BA\\SQLEXPRESS;Database=ProyectoWeb3;Trusted_Connection=True;");
             }
         }
 
@@ -86,6 +86,11 @@ namespace Entidades.Entidades
                     .HasForeignKey(d => d.IdSeleccion2)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Seleccion2");
+
+                entity.HasOne(d => d.UsuarioNavigation)
+                    .WithMany(p => p.Partidos)
+                    .HasForeignKey(d => d.Usuario)
+                    .HasConstraintName("FK_Usuario");
             });
 
             modelBuilder.Entity<Seleccion>(entity =>
