@@ -39,12 +39,15 @@ namespace ProyectoWeb3.Controllers
             }
             _partidoController.Crear(partido,usuario);
             return Redirect("/Partido/Predicciones");
-        }/*
+        }
+
+        /*
         public IActionResult Predicciones()
         {
             ViewBag.SeleccionesClasificadas = _partidoController.ObtenerSeleccionesClasificadas();
             return View(_partidoController.Listar());
-        }*/
+        }
+        */
 
         public IActionResult Predicciones(int id)
         {
@@ -55,6 +58,11 @@ namespace ProyectoWeb3.Controllers
                 
                 ViewBag.SeleccionesClasificadas = _partidoController.ObtenerSeleccionesClasificadas();
                 return View(_partidoController.Filtrar(usuario));
+            }
+            if (id == 2 & usuario == null ) {
+                TempData["error"] = "No se inició sesión";
+                ViewBag.SeleccionesClasificadas = _partidoController.ObtenerSeleccionesClasificadas();
+                return View(_partidoController.Listar());
             }
             ViewBag.SeleccionesClasificadas = _partidoController.ObtenerSeleccionesClasificadas();
             return View(_partidoController.Listar());

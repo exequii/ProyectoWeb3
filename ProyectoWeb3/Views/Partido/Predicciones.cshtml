@@ -16,6 +16,9 @@
                 <li><a class="dropdown-item" href="/Partido/Predicciones/1">Todas las predicciones</a></li>
                 <li><a class="dropdown-item" href="/Partido/Predicciones/2">Mis predicciones</a></li>
             </ul>
+            <div class="mt-2">
+                <span class="text-danger">@TempData["error"]</span>
+            </div>
         </div>
         <table class="table py-3 bg-white border rounded shadow w-100 p-2">
             <tr>
@@ -70,7 +73,7 @@
 <style>
     #fondo-resultados-prode {
         height:91vh;
-        background-image: url("../images/fondo-index.jpg");
+        background-image: url("/images/fondo-index.jpg");
         background-size: cover;
         background-position: 50% 50%;
     }
