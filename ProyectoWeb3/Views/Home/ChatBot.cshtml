@@ -17,7 +17,7 @@
             console.log(result);
             let token = result.replace('"', '')
             console.log(token)
-            let iframe = '<iframe src="https://webchat.botframework.com/embed/newResource?t=' + token + '" style="min-width: 400px; width: 100%; min-height: 500px"></iframe>'
+            let iframe = '<iframe src="https://webchat.botframework.com/embed/newResource?t=' + token + '" style="min-width: 400px; width: 100%; min-height: 400px"></iframe>'
             $("#bot").append(iframe)
         },
         error: function (result) {
@@ -28,7 +28,7 @@
 
 <div class="w-100 d-flex justify-content-start align-items-center shadow" id="fondo-registro">
     <div class="d-flex flex-column justify-content-end p-3 w-50 bg-white border-1 rounded h-75" style="margin-left:5%;">
-        <div id="bot" style='min-width: 400px; width: 100%; min-height: 500px;'></div>
+        <div id="bot" style='min-width: 400px; width: 100%; min-height: 400px;'></div>
     </div>
 </div>
 
